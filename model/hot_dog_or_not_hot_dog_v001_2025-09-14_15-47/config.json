@@ -1,0 +1,43 @@
+{
+    "seed": 2025,
+    "model": "model_5",
+    "validation_split": 0.3,
+    "data_paths": {
+        "train_hot_dog": "/content/drive/MyDrive/Github/1A - Hot dog or not hot dog/input data/train/hot_dog",
+        "test_hot_dog": "/content/drive/MyDrive/Github/1A - Hot dog or not hot dog/input data/test/hot_dog",
+        "train_not_hot_dog": "/content/drive/MyDrive/Github/1A - Hot dog or not hot dog/input data/train/not_hot_dog",
+        "test_not_hot_dog": "/content/drive/MyDrive/Github/1A - Hot dog or not hot dog/input data/test/not_hot_dog"
+    },
+    "data_parameters": {
+        "img_rows": 128,
+        "img_cols": 128,
+        "channels": 3,
+        "num_classes": 1,
+        "activation": "relu",
+        "class_names": [
+            "hot_dog",
+            "not_hot_dog"
+        ]
+    },
+    "export": {
+        "export_dir": "/content/drive/MyDrive/Github/1A - Hot dog or not hot dog/models",
+        "model_name": "hot_dog_or_not_hot_dog"
+    },
+    "optimize": {
+        "optimizer": "Adam",
+        "learning_rate": 0.0001,
+        "loss": "binary_crossentropy",
+        "metrics": [
+            "accuracy"
+        ],
+        "epochs": 100,
+        "batch_size": 32,
+        "weight_decay": 0.0001,
+        "beta_1": 0.9,
+        "beta_2": 0.999,
+        "epsilon": 1e-07,
+        "momentum": 0,
+        "rho": 0,
+        "amsgrad": 0
+    }
+}
