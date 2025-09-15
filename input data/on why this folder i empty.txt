@@ -1,0 +1,3 @@
+Because it's a hassle uploading big folders. This is faster. It's a Kaggle dataset anyway.
+
+Here's the link: https://www.kaggle.com/datasets/thedatasith/hotdog-nothotdog
