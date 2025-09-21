@@ -5,11 +5,11 @@
       
 Hot dog or not hot dog? That is the question. One that probably no one ever ask but we are asking here anyway. :)
 
-It is inspired by the popular sitcom series "Silicon Valley", one of the favourite sitcoms ever. One of the most comedic moments in the series was when a character decided to make a 'Seefood' app that tell what food was in a picture but ended up with Hot Dog or Not Dog app. His app was useless beyond words but pivotted to classify a "similar-looking object" and got rich for it :)
+It is inspired by the popular sitcom series "Silicon Valley", one of my most favourite sitcoms ever. One of the most comedic moments in the series was when a character decided to make a 'Seefood' app that tell what food was in a picture but ended up with Hot Dog or Not Dog app. His app was useless beyond words but after pivoing to classify a "similar-looking object" and he got a multi-million dollars deal for it :)
 
 To practice skills with image recognition, I decided to follow his footstep and started this project.
 
-The end goal would be a complete mobile app that let people determine if there is indeed hot dog or not :D
+The end goal would be a complete mobile app that let people determine if their food is indeed hot dog or not :D
 
 ## Patch notes
 ### What's new
@@ -30,8 +30,8 @@ For platform, I will be using Google Colab for easier set-up and scaling.
 ## Data
 
 At the moment, I have 2 different data sources:
-1. Kaggle [link](https://www.kaggle.com/datasets/dansbecker/hot-dog-not-hot-dog): This Kaggle dataset was inspired by the same source. It contain 2000+ training images and 200+ testing images for the two classes in our context, hot dog and not hot dog.
-2. Food-101 [link](https://data.vision.ee.ethz.ch/cvl/datasets_extra/food-101): Food-101 is a major project that collected a massive database of food images for data mining. Luckily, hot dog was included in the collection process. This source contain an additional 1000 images of hot dogs. Since we have images of other food as well, it is possible to extend the scope to actually make 'Seefood' :)
+1. [Kaggle](https://www.kaggle.com/datasets/dansbecker/hot-dog-not-hot-dog) : This Kaggle dataset was inspired by the same sitcom (yes, it's very popular and cool). It contain 2000+ training images and 200+ testing images for the two classes in our context, hot dog and not hot dog.
+2. [Food-101](https://data.vision.ee.ethz.ch/cvl/datasets_extra/food-101) : Food-101 is a major project that collected a massive database of food images for data mining. Luckily, hot dog was included in the collection process. This source contain an additional 1000 images of hot dogs. Since we have images of other food as well, it is possible to extend the scope to actually make 'Seefood' :)
 
 For the current version, I am only using the Kaggle data source.
 
