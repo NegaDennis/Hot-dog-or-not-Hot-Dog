@@ -39,23 +39,42 @@ For the current version, I am only using the Kaggle data source.
 
 The current set up is like this:
 Hot dog or not Hot Dog/
+
 │  Notebook.ipynb
+
 │  Config.json
+
 │  Readme.md
+
 └─ input data (small)/
+
    ├─ train
+   
    └─ test
+   
 └─ input data/
+
    ├─ kaggle_set
+   
    └─ food101_set
+   
    (it's empty in this repo because I haven't set up .gitignore yet and I don't want to upload all data)
+   
 └─ models/
+
    ├─ hot_dog_or_not_hot_dog_v1_....
+   
    └─ ....
+   
    (basically where I dump all models from previous runs that I think are worth saving)
+   
 └─ scr/
+
    ├─ preprocessing.ipynb
+   
    └─ models.ipynb
+   
    └─ optimizer.ipynb
+   
    └─ export.ipynb
    
