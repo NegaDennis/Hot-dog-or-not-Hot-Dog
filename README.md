@@ -27,6 +27,31 @@ Similar to what was portrayed in the show, the use case is that the user will ta
 To handle this task, I will be using the tensorflow/kera library with Python, a classic approach to image recognition problems.
 For platform, I will be using Google Colab for easier set-up and scaling.
 
+
+The current pipeline:
+
+
+|Data Loading| ---> |Data Preprocessing| ---> |Modelling/Optimize| ---> |Evaluate| ---> |Export|
+
+- Data Loading: A simple loading of images data. It pull images from relevant folders and label appropriately.
+- Data Pre-processing: Contain several steps.
+        Step 1: Resize image
+        Step 2: Convert image data to arrays
+        Step 3: Normalize arrays
+- Modelling/Optimize: Use specified model architecture and layers and optimizing methods to train model. A portion of training data is used for validation.
+- Evaluate:
+        + Evaluate model on test set using standard metrics for classification problems (accuracy, precision, recall, f-1, kappa score).
+        + Include training history graphs to study training behaviors.
+- Export: Export the following items for each model run:
+        + model.keras
+        + classification report.txt
+        + confusion matrix.txt
+        + config.json
+        + notes (contain context around that specific model run and sometimes for frustration dumping :) )
+
+
+To retrain or fine-tune, one can edit config or dump data into appropriate folders. very easy.
+
 ## Data
 
 At the moment, I have 2 different data sources:
