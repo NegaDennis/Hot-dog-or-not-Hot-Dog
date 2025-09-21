@@ -7,6 +7,8 @@ It is inspired by the popular sitcom series "Silicon Valley", one of the favouri
 
 To practice skills with image recognition, I decided to follow his footstep and started this project.
 
+As the project is still in progress, I will not be spending too much time on this README. Only the very essential will be included.
+
 -Use Case------------------------------------------------------------------------------------------
 
 Similar to what was portrayed in the show, the use case is that the user will take a picture of their food, the model process the image and classify if it is hot dog or not.
