@@ -8,12 +8,15 @@ It is inspired by the popular sitcom series "Silicon Valley", one of the favouri
 To practice skills with image recognition, I decided to follow his footstep and started this project.
 
 -Use Case------------------------------------------------------------------------------------------
+
 Similar to what was portrayed in the show, the use case is that the user will take a picture of their food, the model process the image and classify if it is hot dog or not.
 
 -Approach------------------------------------------------------------------------------------------
+
 To handle this task, I will be using the tensorflow/kera library with Python, a classic approach to image recognition problems.
 
 -Data----------------------------------------------------------------------------------------------
+
 At the moment, I have 2 different data sources:
 1. Kaggle (link): This Kaggle dataset was inspired by the same source. It contain 2000+ training images and 200+ testing images for the two classes in our context, hot dog and not hot dog.
 2. Food-101 (link): Food-101 is a major project that collected a massive database of food images for AI training purposes. Luckily, hot dog was included in the collection process. This source contain an additional 1000 images of hot dogs. Since we have images of other food as well, it is possible to extend the scope to actually make 'Seefood' :)
@@ -21,4 +24,5 @@ At the moment, I have 2 different data sources:
 For the current version, I am only using the Kaggle data source.
 
 -Folder Structure----------------------------------------------------------------------------------
+
 (TBD)
