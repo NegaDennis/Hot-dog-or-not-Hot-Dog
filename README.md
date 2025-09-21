@@ -1,7 +1,7 @@
 # Hot-dog-or-not-Hot-Dog
 ![ball-park-brand-Lntnns1YBEY-unsplash](https://github.com/user-attachments/assets/464d7f39-ad37-4fb0-9e08-e280db75b83d)
 
-Photo by <a href="https://unsplash.com/@ballparkbrand?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Ball Park Brand</a> on <a href="https://unsplash.com/photos/two-brown-bread-on-blue-textile-Lntnns1YBEY?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Unsplash</a>
+*(Photo by <a href="https://unsplash.com/@ballparkbrand?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Ball Park Brand</a> on <a href="https://unsplash.com/photos/two-brown-bread-on-blue-textile-Lntnns1YBEY?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Unsplash</a>)*
       
 Hot dog or not hot dog? That is the question. One that probably no one ever ask but we are asking here anyway. :)
 
@@ -38,43 +38,44 @@ For the current version, I am only using the Kaggle data source.
 ## Folder Structure
 
 The current set up is like this:
-Hot dog or not Hot Dog/
 
-│  Notebook.ipynb
+      Hot dog or not Hot Dog/
 
-│  Config.json
-
-│  Readme.md
-
-└─ input data (small)/
-
-   ├─ train
-   
-   └─ test
-   
-└─ input data/
-
-   ├─ kaggle_set
-   
-   └─ food101_set
-   
-   (it's empty in this repo because I haven't set up .gitignore yet and I don't want to upload all data)
-   
-└─ models/
-
-   ├─ hot_dog_or_not_hot_dog_v1_....
-   
-   └─ ....
-   
-   (basically where I dump all models from previous runs that I think are worth saving)
-   
-└─ scr/
-
-   ├─ preprocessing.ipynb
-   
-   └─ models.ipynb
-   
-   └─ optimizer.ipynb
-   
-   └─ export.ipynb
+            │  Notebook.ipynb (this is where i run the scripts, explore training results, and so on.)
+      
+            │  Config.json
+      
+            │  Readme.md
+      
+            └─ input data (small)/
+      
+               ├─ train
+         
+               └─ test
+         
+            └─ input data/
+      
+               ├─ kaggle_set
+         
+               └─ food101_set
+         
+               (it's empty in this repo because I haven't set up .gitignore yet and I don't want to upload all data)
+         
+            └─ models/
+      
+               ├─ hot_dog_or_not_hot_dog_v1_....
+         
+               └─ ....
+         
+               (basically where I dump all models from previous runs that I think are worth saving)
+         
+            └─ scr/
+      
+               ├─ preprocessing.ipynb
+         
+               └─ models.ipynb
+               
+               └─ optimizer.ipynb
+         
+               └─ export.ipynb
    
