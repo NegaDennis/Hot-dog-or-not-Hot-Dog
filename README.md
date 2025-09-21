@@ -9,15 +9,15 @@ To practice skills with image recognition, I decided to follow his footstep and 
 
 As the project is still in progress, I will not be spending too much time on this README. Only the very essential will be included.
 
--Use Case------------------------------------------------------------------------------------------
+## Use Case
 
 Similar to what was portrayed in the show, the use case is that the user will take a picture of their food, the model process the image and classify if it is hot dog or not.
 
--Approach------------------------------------------------------------------------------------------
+## Approach
 
 To handle this task, I will be using the tensorflow/kera library with Python, a classic approach to image recognition problems.
 
--Data----------------------------------------------------------------------------------------------
+## Data
 
 At the moment, I have 2 different data sources:
 1. Kaggle (link): This Kaggle dataset was inspired by the same source. It contain 2000+ training images and 200+ testing images for the two classes in our context, hot dog and not hot dog.
@@ -25,6 +25,6 @@ At the moment, I have 2 different data sources:
 
 For the current version, I am only using the Kaggle data source.
 
--Folder Structure----------------------------------------------------------------------------------
+## Folder Structure
 
 (TBD)
