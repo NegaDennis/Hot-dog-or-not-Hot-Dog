@@ -106,4 +106,21 @@ The current set up is like this:
                └─ optimizer.ipynb
          
                └─ export.ipynb
+
+## Performance
+
+At the moment, the model is giving accuracy level of 0.63 on the testset. A lot of room for improvement.
+
+The confusion matrix is as follow.
    
+<img width="519" height="410" alt="confusion matrix" src="https://github.com/user-attachments/assets/2bde7918-d782-4492-9835-91905c363ed3" />
+
+
+The training process seems to be fine at the moment. Over 100 epochs of training, both accuracy and loss in training and validation have a steady improvement momentum.
+
+<img width="545" height="470" alt="train vs validation accuract" src="https://github.com/user-attachments/assets/11e23e64-952d-4c06-8633-3e005303cc36" />
+
+
+<img width="545" height="470" alt="train vs validation loss" src="https://github.com/user-attachments/assets/834c20a1-3f81-4833-ae82-2b9d1075bd8b" />
+
+Still, there is a lot more to go before I am at a performance comfortable enough for applications.
