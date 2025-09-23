@@ -13,13 +13,16 @@ The end goal would be a complete mobile app that let people determine if their f
 
 ## Patch notes
 ### What's new
-- Uploaded the very first complete project folder, set up for continuous training and easy orchestration with config.
+- Added food101 dataset to training data (+1000 images for training - hot dog category)
+- Tweaked some hyperparameters (learning rate, batch_size,...)
+- Accuracy improved significantly:
+  + Val_accuracy ~0.8; Val_loss ~0.48
+  + Test_accuracy ~0.7; Test_loss ~0.68
 ### What's next
-- Refactor some scripts to remove unnecessary codes and make it leaner.
-- Fine-tune model to improve accuracy. (right now, it's at 0.63 against testset)
-- Try out some pre-trained models (EfficientNet and ResNet are top of the list at the moment)
-## Use Case
+- Performance is acceptable for now; Move on to building software side (the app).
 
+
+## Use Case
 Similar to what was portrayed in the show, the use case is that the user will take a picture of their food, the model process the image and classify if it is hot dog or not.
 
 ## Approach
@@ -109,18 +112,18 @@ The current set up is like this:
 
 ## Performance
 
-At the moment, the model is giving accuracy level of 0.63 on the testset. A lot of room for improvement.
+At the moment, the model is giving accuracy level of 0.7 on the testset.
 
 The confusion matrix is as follow.
-   
-<img width="519" height="410" alt="confusion matrix" src="https://github.com/user-attachments/assets/2bde7918-d782-4492-9835-91905c363ed3" />
+
+<img width="519" height="410" alt="conf matrix" src="https://github.com/user-attachments/assets/2f16e060-415b-4657-acdc-1f4372ab13fa" />
 
 
-The training process seems to be fine at the moment. Over 100 epochs of training, both accuracy and loss in training and validation have a steady improvement momentum.
+The training process is going well. Stable and steep but not too steep learning curve.
 
-<img width="545" height="470" alt="train vs validation accuract" src="https://github.com/user-attachments/assets/11e23e64-952d-4c06-8633-3e005303cc36" />
+<img width="545" height="470" alt="train vs val accuracy" src="https://github.com/user-attachments/assets/6bb3c663-be68-4279-9e50-4c1eef186a14" />
+
+<img width="536" height="470" alt="train vs val loss" src="https://github.com/user-attachments/assets/55fb87e4-0b67-4ee0-8244-8434d90209f8" />
 
 
-<img width="545" height="470" alt="train vs validation loss" src="https://github.com/user-attachments/assets/834c20a1-3f81-4833-ae82-2b9d1075bd8b" />
-
-Still, there is a lot more to go before I am at a performance comfortable enough for applications.
+Okay for now. Move on to building the app side.
