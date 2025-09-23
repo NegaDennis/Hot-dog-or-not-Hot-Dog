@@ -64,7 +64,7 @@ At the moment, I have 2 different data sources:
 1. [Kaggle](https://www.kaggle.com/datasets/dansbecker/hot-dog-not-hot-dog) : This Kaggle dataset was inspired by the same sitcom (yes, it's very popular and cool). It contain 2000+ training images and 200+ testing images for the two classes in our context, hot dog and not hot dog.
 2. [Food-101](https://data.vision.ee.ethz.ch/cvl/datasets_extra/food-101) : Food-101 is a major project that collected a massive database of food images for data mining. Luckily, hot dog was included in the collection process. This source contain an additional 1000 images of hot dogs. Since we have images of other food as well, it is possible to extend the scope to actually make 'Seefood' :)
 
-For the current version, I am only using the Kaggle data source.
+Used fully Kaggle data set. Used food-101 for only training - hot dog class. Might add randomly some to training - not hot dog class as well.
 
 ## Folder Structure
 
