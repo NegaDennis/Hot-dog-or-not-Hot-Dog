@@ -127,3 +127,9 @@ The training process is going well. Stable and steep but not too steep learning 
 
 
 Okay for now. Move on to building the app side.
+
+## FAQs
+
+1. Why not a pre-trained model?
+
+I have tried some pre-trained models actually (i.e. ResNet, EfficientNet). However, the results were not very good. Training history indicated hyper overfitting. Plus, it takes longer and consumes more resources for each run. Since this is a solo project, I do not have much budget to spend and have to be very careful with spending.
