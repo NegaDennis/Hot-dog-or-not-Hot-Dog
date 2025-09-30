@@ -136,3 +136,7 @@ Okay for now. Move on to building the app side.
 1. Why not a pre-trained model?
 
 I have tried some pre-trained models actually (i.e. ResNet, EfficientNet). However, the results were not very good. Training history indicated hyper overfitting. Plus, it takes longer and consumes more resources for each run. Since this is a solo project, I do not have much budget to spend and have to be very careful with spending.
+
+2. Why are there unnessary model parameters in config?
+
+No worries. I got lazy and actually tweaked the scripts to only take in necessary parameters for the chosen model of the run. If there are unnecessary parameters, the scripts should just ignore them.
